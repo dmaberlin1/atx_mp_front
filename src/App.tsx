@@ -1,9 +1,14 @@
-import { useState } from 'react'
+import {Suspense, useState} from 'react'
+import PublicRoutes from "@/routes/PublicRoutes.tsx";
+import PrivateRoutes from "@/routes/PrivateRoutes.tsx";
 
 function App() {
 
   return (
-      <h1>app</h1>
+      <Suspense fallback={'Loading...'}>
+      <PublicRoutes></PublicRoutes>
+      <PrivateRoutes></PrivateRoutes>
+      </Suspense>
   )
 }
 
