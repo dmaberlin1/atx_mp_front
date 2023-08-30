@@ -4,7 +4,7 @@ const HomePage:FC = () => {
     return (
         <>
             <Helmet>
-                <title>Main-Atx marketplace</title>
+                <title className={''}>Main-Atx marketplace</title>
             </Helmet>
             <h1>main atx Marketplace</h1>
         </>

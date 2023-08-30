@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {titleProd} from "@/constants/constants.ts";
+import {titleProd} from "@/constants/const.ts";
 import {Helmet} from "react-helmet";
 
 interface IHelmetWithTitle {

@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+
+}
+
+.tw-header-height{
+    height: 80px;
+}
+.tw-footer-height{
+    height: 200px
+}
