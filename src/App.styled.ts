@@ -85,7 +85,12 @@ export const PageWrapper=styled.div`
 `
 
 
-
+export const ProductGroup=styled.div`
+  margin-top: 20px;
+  >*:first-child{
+  margin-bottom: 10px;
+  }
+`
 
 
 
